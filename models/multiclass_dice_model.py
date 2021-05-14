@@ -94,6 +94,7 @@ class MulticlassDiceModel(BaseModel):
 
         self.backward_g()  # calculate gradients for G
         self.optimizer_G.step()  # update G's weights
+        torch.cuda.empty_cache()
 
     def test(self):
         self.netG.eval()
