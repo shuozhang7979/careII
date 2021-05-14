@@ -6,7 +6,6 @@ import h5py
 import cv2
 import matplotlib.pyplot as plt
 import xml.etree.ElementTree as ET
-from util.mask_to_contour import *
 
 
 def readDicom(path):
