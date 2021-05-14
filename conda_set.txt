@@ -1,0 +1,6 @@
+conda install python=3.8.5
+conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch -c nvidia
+conda install -c conda-forge h5py
+conda install -c fastai opencv-python-headless
+conda install -c conda-forge pydicom
+
